@@ -8,6 +8,12 @@ var box1, pig1;
 var backgroundImg,platform;
 var bird, slingShot;
 
+
+//Array
+var array1 = [[1,2],[3,4],[5,6]];
+console.log(array1);
+console.log(array1[0][1])
+
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
 }
